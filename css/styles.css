@@ -1,0 +1,250 @@
+.site-body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* --------- Header ----------*/
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo > span {
+  color: #2e2f42;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #9747ff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-contacts-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: #404bbf;
+}
+
+/* --------- Hero ----------*/
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #9747ff;
+}
+
+/* --------- Values ----------*/
+.values {
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.values-item {
+  font-style: medium;
+  font-size: 20px;
+  line-height: 1.02;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.values-item-text {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.28;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --------- What are we doing ----------*/
+.offer {
+  background-color: #ffffff;
+}
+
+.offer-title {
+  font-style: SemiBold;
+  font-size: 36px;
+  line-height: 1.11;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* --------- Our team ----------*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-style: SemiBold;
+  font-size: 36px;
+  line-height: 1.11;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-name {
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 1.2;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-position {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.5;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* --------- Footer ----------*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo > span {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.5;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* --------- Portfolio  ----------*/
+
+.portfolio-site {
+  background-color: #ffffff;
+}
+
+.portfolio-btn {
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 1.5;
+  align: Center;
+  vertical-align: Center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.offer-name {
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 1.2;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.offer-type {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.5;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
