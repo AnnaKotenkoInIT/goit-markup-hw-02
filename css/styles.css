@@ -42,7 +42,7 @@
 }
 
 .logo-span {
-  color: var(--main-title-color);
+  color: #2e2f42;
 }
 
 .header-link {
@@ -67,6 +67,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: #434455;
 }
 
 .header-contacts-item:hover,
@@ -144,6 +145,7 @@
 }
 
 .team-item {
+  background-color: var(--main-background-color);
 }
 
 .team-name {
