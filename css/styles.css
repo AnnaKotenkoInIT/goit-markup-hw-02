@@ -25,18 +25,6 @@
   text-decoration: none;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
 /* #endregion */
 
 /* #region Header*/
@@ -151,7 +139,7 @@
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
-  text-transform: capitalize
+  text-transform: capitalize;
   color: var(--main-title-color);
 }
 
@@ -167,7 +155,7 @@
   color: var(--main-title-color);
 }
 
-.team-position {
+.team-job-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -216,7 +204,7 @@
   color: var(--cl-accent);
 }
 
-.class="logo-span" {
+.logo-span {
   color: #f4f4fd;
 }
 
@@ -224,6 +212,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: #e7e9fc;
+  color: #f4f4fd;
 }
 /* #endregion */
