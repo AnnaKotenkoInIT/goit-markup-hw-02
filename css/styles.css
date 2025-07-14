@@ -7,7 +7,7 @@
   --main-background-color: #ffffff;
   --secondary-background-color: #2e2f42;
   --button-background-color-accent: #4d5ae5;
-  --button-backgraound-focus: #404bbf;
+  --button-background-focus: #404bbf;
 }
 
 /* #region General*/
@@ -41,8 +41,8 @@
   color: var(--cl-accent);
 }
 
-.logo-span {
-  color: #2e2f42;
+.header-logo-span {
+  color: var(--main-title-color);
 }
 
 .header-link {
@@ -104,7 +104,7 @@
 .hero-button:hover,
 .hero-button:focus {
   color: #ffffff;
-  background-color: var(--button-backgraound-focus);
+  background-color: var(--button-background-focus);
 }
 /* #endregion */
 
@@ -206,7 +206,7 @@
   color: var(--cl-accent);
 }
 
-.logo-span {
+.footer-logo-span {
   color: #f4f4fd;
 }
 
