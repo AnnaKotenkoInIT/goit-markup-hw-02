@@ -13,6 +13,8 @@
 /* #region General*/
 .body {
   font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 .list {
@@ -23,7 +25,7 @@
   text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -34,12 +36,11 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* #endregion */
 
 /* #region Header*/
 .header {
-  background-color: var(--main-background-color);
 }
 
 .header-logo {
@@ -52,7 +53,7 @@
   color: var(--cl-accent);
 }
 
-.header-logo > span {
+.logo-span {
   color: var(--main-title-color);
 }
 
@@ -69,12 +70,15 @@
   color: var(--cl-focus);
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-contacts-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--main-text-color);
 }
 
 .header-contacts-item:hover,
@@ -101,6 +105,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 500;
   letter-spacing: 0.64px;
   color: #ffffff;
   background-color: var(--button-background-color-accent);
@@ -116,7 +121,6 @@
 
 /* #region Values*/
 .values {
-  background-color: var(--main-background-color);
 }
 
 .values-item {
@@ -132,7 +136,7 @@
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-weight: 400;
-  color: var(--main-text-colo);
+  color: var(--main-text-color);
 }
 /* #endregion */
 
@@ -141,17 +145,17 @@
   background-color: #f4f4fd;
 }
 
-.team-title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-align: center;
+  text-transform: capitalize
   color: var(--main-title-color);
 }
 
 .team-item {
-  background-color: var(--main-background-color);
 }
 
 .team-name {
@@ -169,13 +173,11 @@
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
-  color: var(--main-text-color);
 }
 /* #endregion */
 
 /* #region Our Portfolio*/
 .portfolio {
-  background-color: var(--main-background-color);
 }
 
 .portfolio-offer {
@@ -196,7 +198,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--main-text-color);
 }
 /* #endregion */
 
@@ -215,7 +216,7 @@
   color: var(--cl-accent);
 }
 
-.footer-logo > span {
+.class="logo-span" {
   color: #f4f4fd;
 }
 
